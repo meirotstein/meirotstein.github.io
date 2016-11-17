@@ -1,0 +1,74 @@
+body {
+    background-image: url(../img/bkg.png);
+    font-family: 'Amatic SC', serif;
+    color: #D6DBDF;
+    text-align: center;
+}
+
+body i {
+    color: #D6DBDF;
+}
+
+.eyeball {
+    position: absolute !important;
+    top: 120px;
+    width: 61px;
+    height: 71px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.eyeball .iris {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+}
+
+.eyeball.left {
+    left: 62px;
+}
+
+.eyeball.right {
+    left: 130px;
+}
+
+.main .firstrow {
+    margin-top: 20px;
+}
+
+.main .secondrow {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.main .secondrow .leftbox{
+    float: left;
+    width: 100px;
+}
+
+.main .secondrow .rightbox{
+    float: right;
+    width: 100px;
+}
+
+.main .secondrow .avatar{
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+}
+
+.main .firstrow .title{
+    font-size: 130px;
+    font-weight: bold;
+}
+
+.main .firstrow .email{
+    font-size: 44px;
+}
+
+.main .thirdrow {
+    margin-top: 50px;
+    font-size: 35px;
+}
