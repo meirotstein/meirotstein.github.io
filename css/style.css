@@ -72,3 +72,53 @@ body i {
     margin-top: 50px;
     font-size: 35px;
 }
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+    .main .secondrow .avatar{
+        width: 500px;
+    }
+
+    .main .secondrow .avatar img{
+        width: 500px;
+    }
+
+    .eyeball {
+        position: absolute !important;
+        top: 237px;
+        width: 119px;
+        height: 144px;
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+
+    .eyeball.left {
+        left: 124px;
+    }
+
+    .eyeball.right {
+        left: 258px;
+    }
+
+    .eyeball .iris {
+        width: 20px;
+        height: 20px;
+    }
+
+    .main .firstrow .title{
+        font-size: 200px;
+    }
+
+    .main .firstrow .email{
+        font-size: 80px;
+    }
+
+    .main .thirdrow {
+        font-size: 80px;
+    }
+
+}
