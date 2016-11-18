@@ -76,8 +76,7 @@ body i {
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
+and (-webkit-min-device-pixel-ratio: 2){
 
     .main .secondrow .avatar{
         width: 500px;
@@ -88,12 +87,9 @@ and (orientation: portrait) {
     }
 
     .eyeball {
-        position: absolute !important;
         top: 237px;
         width: 119px;
         height: 144px;
-        margin-right: 10px;
-        border-radius: 50%;
     }
 
     .eyeball.left {
